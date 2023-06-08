@@ -17,7 +17,7 @@ import (
 // Use the latest 1.x version of our dependency, so we don't have to update this definition after every lib release.
 // But don't forget to update this to `2.+` if the library reaches version 2.0!
 const gradleDepVersion = "1.+"
-const apiEndpoint = "grpcs://pluggable.services.bitrise.io"
+const apiEndpoint = "grpc://10.87.100.50:6666"
 const gradleHome = "~/.gradle"
 
 type Input struct {
