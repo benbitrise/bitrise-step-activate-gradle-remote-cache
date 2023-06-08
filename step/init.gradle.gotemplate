@@ -27,7 +27,8 @@ gradle.settingsEvaluated { settings ->
             enabled = true
             push = {{ .PushEnabled }}
             debug = {{ .DebugEnabled }}
-            blobValidationLevel = '{{ .ValidationLevel }}'
+            blobValidationLevel = '""'
+            numChannels = 8
         }
     }
 }
